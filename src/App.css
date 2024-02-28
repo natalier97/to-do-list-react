@@ -21,10 +21,10 @@ h1 {
 
 /* delete button  */
 #deleteButton {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   margin-left: 10px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwnZA7mx8lfKq8NfIW7EZGOZHZqlcS13Cha42gzTILUA&s);
   /* background-image: url(https://static-00.iconduck.com/assets.00/trash-icon-922x1024-mh0gurb8.png); */
   background-size: cover;
@@ -35,7 +35,8 @@ h1 {
 .list {
   list-style-type: none;
   font-size: 20px;
-  color:aliceblue
+  color:aliceblue;
+  margin-bottom: 20px;
 }
 
 .completed {
