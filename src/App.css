@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-image: url(https://1.bp.blogspot.com/-fH42rEFiz_s/VXAbDTA8RaI/AAAAAAAAA1g/ZmwnIbnzio8/s1600/91Ugl.jpg);
+  /* background-image: url(https://i.gifer.com/7knE.gif); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  font-family: 'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure
+}
+
+
+
+/* delete button  */
+#deleteButton {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwnZA7mx8lfKq8NfIW7EZGOZHZqlcS13Cha42gzTILUA&s);
+  /* background-image: url(https://static-00.iconduck.com/assets.00/trash-icon-922x1024-mh0gurb8.png); */
+  background-size: cover;
+
+} 
+
+/* toDoList Items */
+.list {
+  list-style-type: none;
+  font-size: 20px;
+  color:aliceblue
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: burlywood;
+}
